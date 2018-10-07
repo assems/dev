@@ -4,6 +4,7 @@ body {
 	color: #fff;
 	background-color: #61122f;
 	font-family: 'Cairo', sans-serif;
+	list-style: none;
 }
 
 
@@ -11,9 +12,15 @@ body {
 #header-nav {
 /*	background-color: #f6b319;*/
 	background-color: #fdf2ce;
-	background-image: linear-gradient(to left, #fdf2ce, #fdf2ce, #f6b319, #f6b319);
+	background-image: linear-gradient(to left, #f6b319, #fdf2ce, #fdf2ce, #f6b319);
 	border-radius: 0;
 	border: 0;
+	flex-flow: column;
+}
+
+.navbar-nav {
+	margin: auto;
+	z-index: 0;
 }
 
 #logo-img {
@@ -39,6 +46,7 @@ body {
 .nav-item {
 /*	margin-left: 6vw;
 	margin-right: 35vw;*/
+	list-style: none;
 }
 
 .navbar-brand h1 {
