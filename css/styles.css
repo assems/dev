@@ -117,19 +117,19 @@ body {
 		margin-right: -15px;*/
 	}
 	#nav-list {
-		margin-right: 27vw;
+/*		margin-right: 27vw;*/
 	}
 }
 
 @media (max-width: 856px){
 		#nav-list {
-		margin-right: 20vw;
+/*		margin-right: 20vw;*/
 	}
 }
 
 @media (max-width: 780px) {
 	#nav-list {
-		margin-right: 10vw;
+/*		margin-right: 10vw;*/
 	}
 /*	.nav-item {
 	margin-left: 10vw;
@@ -139,7 +139,7 @@ body {
 
 @media (max-width: 690px){
 		#nav-list {
-		margin-right: 0vw;
+	/*	margin-right: 0vw;*/
 	}
 }
 
@@ -154,9 +154,16 @@ body {
     	margin-right: 0;
 	}*/
 	.navbar-brand {
-/*		display: none;
+		font-size: 1em;
+/*		display: none;*/
 	}
-	#header-nav {
+	#logo-img {
+		background-size: contain;
+		width: 100px;
+/*		margin-top: 10px;
+		margin-bottom: -20px;*/
+	}
+/*	#header-nav {
 		background-image: linear-gradient(to left, #fdf2ce, #fdf2ce, #fdf2ce, #f6b319, #f6b319);
 	}
 	#logo-img {
