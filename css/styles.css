@@ -114,7 +114,7 @@ body {
 	margin: auto;
 }
 
-.jumbotron {
+.jumbotronn {
 	width: 90%;
 	margin: auto;
 	padding: 0;
@@ -125,80 +125,37 @@ body {
 }
 
 #video-background {
-	position: relative;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
+	margin-bottom: -6px;
     width: 100%;
     border-radius: 10px;
 }
 @media (max-width: 992px) {
-	.navbar-brand {
-/*		font-size: 1em;
-		padding-top: 45px;
-		margin-right: -15px;*/
-	}
-	#nav-list {
-/*		margin-right: 27vw;*/
-	}
+
 }
 
 @media (max-width: 856px){
-		#nav-list {
-/*		margin-right: 20vw;*/
-	}
+
 }
 
 @media (max-width: 780px) {
-	#nav-list {
-/*		margin-right: 10vw;*/
-	}
-/*	.nav-item {
-	margin-left: 10vw;
-	margin-right: 10vw;
-	}	*/
+
 }
 
 @media (max-width: 690px){
-		#nav-list {
-	/*	margin-right: 0vw;*/
-	}
+
 }
 
 @media (max-width: 576px) {
-/*	.logo-image {
-		display: none;
-	}
-	.navbar-brand {
-		background: url("../img/logo.png") right no-repeat;
-		opacity: 0.1;
-		margin-left: 0;
-    	margin-right: 0;
-	}*/
-
 	#navbarSupportedContent {
 		margin-top: -80px;
 	}
 	.navbar-brand {
 		font-size: 1em;
-/*		display: none;*/
 	}
 	#logo-img {
 		background-size: contain;
 		width: 100px;
-/*		margin-top: 10px;
-		margin-bottom: -20px;*/
 	}
-/*	#header-nav {
-		background-image: linear-gradient(to left, #fdf2ce, #fdf2ce, #fdf2ce, #f6b319, #f6b319);
-	}
-	#logo-img {
-		background-size: contain;
-		width: 100px;
-		margin-top: 10px;
-		margin-bottom: -20px;
-	}*/
 }
 
 @media (min-width: 576px) {
