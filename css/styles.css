@@ -121,7 +121,7 @@ body {
     margin-top: 40px;
     padding-bottom: 0;
     border-radius: 10px;
-    box-shadow: 2px 2px 10px 0px darkslategrey;
+/*    box-shadow: 2px 2px 10px 0px darkslategrey;*/
 }
 
 #video-background {
@@ -131,9 +131,9 @@ body {
 }
 
 
-.row {
+.tiles {
 	justify-content: space-around;
-	width: 90%;
+	width: 93%;
 	align-items: center;
 	margin: auto;
 
@@ -167,13 +167,13 @@ body {
 	background-position: center;
 }
 
-.row span {
+.row span, .gmap span {
 	position: absolute;
 	bottom: 0;
 	right: 0;
 	width: 100%;
 	background-color: black;
-	opacity: .8;
+	opacity: 0.8;
 	text-align: center;
 	font-weight: bold;
 	height: 20%;
@@ -186,9 +186,36 @@ body {
 }
 
 .map {
+	justify-content: center;
+}
+.gmap {
 	position: relative;
 	width: 90%;
-	border-radius: 5px;
+	margin: auto;
+	padding: 0;
+	/*height: 250px;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin-right: 15px;
+	margin-left: 15px;
+	width: auto;
+	margin-bottom: 15px;*/
+}
+
+.map a {
+/*	position: relative;*/
+}
+
+iframe {
+	height: 250px;
+	width: 100%;
+/*	width: 95vw;*/
+/*	
+	width: 100%;
+	margin-right: 15px;
+	margin-left: 15px;*/
 }
 
 @media (max-width: 992px) {
