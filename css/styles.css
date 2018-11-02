@@ -167,7 +167,7 @@ body {
 	background-position: center;
 }
 
-.row span, .gmap span {
+.tiles span, .gmap span {
 	position: absolute;
 	bottom: 0;
 	right: 0;
@@ -218,6 +218,35 @@ iframe {
 	margin-left: 15px;*/
 }
 
+
+.panel-footer {
+	margin-top: 25px;
+	padding-top: 25px;
+	padding-bottom: 20px;
+	background-color: #222;
+	direction: rtl;
+	text-align: center;
+	font-size: .8rem;
+}
+
+
+.panel-footer .row span {
+	clear: both;
+	top: 0;
+	right: 0;
+	font-weight: bold;
+	font-size: 1rem;
+}
+
+#address p {
+	color: green;
+	font-style: italic;
+	font-size: .7rem;
+}
+
+#testemonials {
+	font-style: italic;
+}
 @media (max-width: 992px) {
 
 }
